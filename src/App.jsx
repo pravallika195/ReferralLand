@@ -1,8 +1,8 @@
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
-import LoginPage from "./pages/LoginPage";
-import ReferralDetails from "./pages/ReferralDetails";
-import NotFound from "./pages/NotFound";
+import Dashboard from "./Pages/Dashboard";
+import LoginPage from "./Pages/LoginPage";
+import ReferralDetails from "./Pages/ReferralDetails";
+import NotFound from "./Pages/NotFound";
 import ProtectedRoute from "./Components/ProtectedRoute";
 
 function App(){
