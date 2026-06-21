@@ -51,7 +51,11 @@ function LoginPage() {
         className="login-form"
         onSubmit={handleSubmit}
       >
+        <label for="email" className="form-label">
+          Email
+        </label>
         <input
+          
           className="form-input"
           type="email"
           placeholder="your@example.com"
@@ -59,7 +63,9 @@ function LoginPage() {
           onChange={handleChange}
           name="email"
         />
-
+        <label for="password" className="form-label">
+          Password
+        </label>
         <input
           className="form-input"
           type="password"
